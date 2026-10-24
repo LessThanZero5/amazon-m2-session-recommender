@@ -1,0 +1,18 @@
+{
+  "model": "SemanticSASRec",
+  "semantic_encoder": "voyage-4-large",
+  "semantic_dim": 1024,
+  "d_model": 128,
+  "locale_dim": 6,
+  "n_heads": 4,
+  "n_layers": 4,
+  "dropout": 0.1,
+  "max_seq_len": 64,
+  "negative_samples": 128,
+  "catalog_size": 1393956,
+  "full_catalog_metrics": {
+    "Recall@20": 0.425167,
+    "NDCG@20": 0.193198,
+    "MRR@20": 0.125286
+  }
+}

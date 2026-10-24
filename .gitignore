@@ -1,0 +1,128 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+# =========================
+# Secrets / environment
+# =========================
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# DATA
+# Keep only data/README.md
+# =========================
+data/*
+!data/README.md
+
+# =========================
+# ARTIFACTS
+# Keep only evaluation and demo results
+# =========================
+artifacts/*
+
+!artifacts/evaluation/
+!artifacts/evaluation/**
+
+!artifacts/demo/
+!artifacts/demo/**
+
+# =========================
+# TensorBoard / logs
+# =========================
+runs/
+logs/
+
+events.out.tfevents.*
+
+# =========================
+# Large NumPy / ML files
+# =========================
+*.npy
+*.npz
+*.memmap
+*.dat
+
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# =========================
+# Large dataset formats
+# =========================
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+
+# =========================
+# Search / ANN indexes
+# =========================
+*.faiss
+*.index
+*.ann
+
+# =========================
+# Serialized Python objects
+# =========================
+*.pkl
+*.pickle
+*.joblib
+
+# =========================
+# Archives / project backups
+# =========================
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# =========================
+# Temporary embedding files
+# =========================
+_global_embedding_*
+global_embedding_sums*
+product_embeddings*
+global_product_embeddings*
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
